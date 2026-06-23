@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Agustin Tourism Portal</title>
+    <meta name="description"
+        content="Discover the beauty of San Agustin, Romblon. Explore pristine islands, dive into the Blue Hole, and experience nature like never before.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo San Agustin.png" alt="San Agustin Logo">
+                <span>San Agustin</span>
+            </a>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                &#9776;
+            </button>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li><a href="tours.html">Tours</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="learn-more.html">Learn More</a></li>
+                    <li><a href="tel:09624609673" class="btn btn-primary"
+                            style="color: white; border-radius: 50px; padding: 0.6rem 1.5rem;">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" style="background-image: url('locations/cawayan_aerial1.jpg');">
+        <div class="container fade-in">
+            <h1>Welcome to San Agustin</h1>
+            <p>Your gateway to paradise in Romblon. Discover crystal clear waters, breathtaking islands, and
+                unforgettable adventures.</p>
+            <a href="tours.html" class="btn btn-primary">Explore Tours</a>
+        </div>
+    </section>
+
+    <section class="section container">
+        <div class="section-heading fade-in">
+            <h2>Featured Locations</h2>
+            <p style="color: var(--text-secondary); margin-top: 1rem;">Get a glimpse of the natural wonders waiting for
+                you.</p>
+        </div>
+
+        <div class="grid grid-3">
+            <div class="card fade-in">
+                <div class="card-img-wrapper">
+                    <img src="locations/mabaybay_bluehole.jpg" alt="Blue Hole" class="card-img">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">The Blue Hole</h3>
+                    <p class="card-desc">A world-class diving spot known for its deep, mesmerizing sapphire waters and
+                        rich marine life.</p>
+                    <a href="locations.html" class="btn btn-secondary"
+                        style="padding: 0.5rem 1rem; font-size: 0.9rem;">View More</a>
+                </div>
+            </div>
+
+            <div class="card fade-in" style="transition-delay: 0.1s;">
+                <div class="card-img-wrapper">
+                    <img src="locations/mabaybay_biaringanisland.jpg" alt="Biaringan Island" class="card-img">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Biaringan Island</h3>
+                    <p class="card-desc">Experience pristine white sand beaches and tranquil isolation in this stunning
+                        island getaway.</p>
+                    <a href="locations.html" class="btn btn-secondary"
+                        style="padding: 0.5rem 1rem; font-size: 0.9rem;">View More</a>
+                </div>
+            </div>
+
+            <div class="card fade-in" style="transition-delay: 0.2s;">
+                <div class="card-img-wrapper">
+                    <img src="locations/payaopao1.jpg" alt="Payaopao" class="card-img">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Payaopao</h3>
+                    <p class="card-desc">Immerse yourself in lush greenery and breathtaking coastal views at Payaopao.
+                    </p>
+                    <a href="locations.html" class="btn btn-secondary"
+                        style="padding: 0.5rem 1rem; font-size: 0.9rem;">View More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Establishments Section -->
+    <section class="section container" style="padding-top: 0;">
+        <div class="section-heading fade-in">
+            <h2>Local Establishments</h2>
+            <p style="color: var(--text-secondary); margin-top: 1rem;">Where to eat and stay during your adventure.</p>
+        </div>
+
+        <div class="grid grid-2">
+            <!-- Establishment 1 -->
+            <div class="card fade-in">
+                <div class="card-img-wrapper" style="height: 200px;">
+                    <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=600&q=80"
+                        alt="North Wings Restaurant" class="card-img">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">North Wings Restaurant</h3>
+                    <p class="card-desc">Enjoy fresh seafood, famous Adobong Pusit, and international flavors in an al
+                        fresco setting with panoramic sea views.</p>
+                    <ul class="contact-info" style="list-style: none; padding: 0; margin-bottom: 1rem;">
+                        <li><span style="font-size: 1.2rem;">📍</span> <a
+                                href="https://maps.google.com/?q=North+Wings+Restaurant+San+Agustin+Romblon"
+                                target="_blank">View on Maps</a></li>
+                        <li><span style="font-size: 1.2rem;">📞</span> <a href="tel:09624609673">Contact Tourism for
+                                Bookings</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Establishment 2 -->
+            <div class="card fade-in" style="transition-delay: 0.1s;">
+                <div class="card-img-wrapper" style="height: 200px;">
+                    <img src="https://images.unsplash.com/photo-1552566626-52f8b9e95e1f?auto=format&fit=crop&w=600&q=80"
+                        alt="Pahuway Café" class="card-img">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Pahuway Café</h3>
+                    <p class="card-desc">A cozy neighborhood cafe that serves one of the best pizza and pasta in town.
+                    </p>
+                    <ul class="contact-info" style="list-style: none; padding: 0; margin-bottom: 1rem;">
+                        <li><span style="font-size: 1.2rem;">📍</span> <a
+                                href="https://maps.google.com/?q=Pahuway+Cafe+San+Agustin+Romblon" target="_blank">View
+                                on Maps</a></li>
+                        <li><span style="font-size: 1.2rem;">📞</span> <a href="tel:09624609673">Contact Pahuway Café
+                                for Bookings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="section container" style="padding-top: 0;">
+        <div class="section-heading fade-in">
+            <h2>News & Updates</h2>
+            <p style="color: var(--text-secondary); margin-top: 1rem;">Stay informed with the latest articles and updates from San Agustin.</p>
+        </div>
+
+        <div class="grid grid-3">
+            <!-- Article 1 -->
+            <div class="card fade-in">
+                <div class="card-img-wrapper" style="height: 200px;">
+                    <img src="https://images.unsplash.com/photo-1572949645841-094f3a9c4c94?auto=format&fit=crop&w=600&q=80" alt="News Image" class="card-img">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">NPC Registration Complete</h3>
+                    <p class="card-desc">Protecting your data, serving with integrity. The Local Government of San Agustin is now officially registered with the National Privacy Commission (NPC)!</p>
+                    <a href="news.html" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Read More</a>
+                </div>
+            </div>
+
+            <!-- Article 2 -->
+            <div class="card fade-in" style="transition-delay: 0.1s;">
+                <div class="card-img-wrapper" style="height: 200px;">
+                    <img src="https://images.unsplash.com/photo-1598135753163-6167c1a1ad65?auto=format&fit=crop&w=600&q=80" alt="News Image" class="card-img">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Tourism Revival 2026</h3>
+                    <p class="card-desc">San Agustin welcomes a surge of visitors as new eco-tourism initiatives and guided tours open to the public this summer.</p>
+                    <a href="news.html" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Read More</a>
+                </div>
+            </div>
+
+            <!-- Article 3 -->
+            <div class="card fade-in" style="transition-delay: 0.2s;">
+                <div class="card-img-wrapper" style="height: 200px;">
+                    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="News Image" class="card-img">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Community Coastal Clean-up</h3>
+                    <p class="card-desc">Join us this coming weekend for a coastal clean-up drive. Together, we can preserve the beauty of our pristine beaches.</p>
+                    <a href="news.html" class="btn btn-secondary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trivia Teaser Section -->
+    <section class="container fade-in" style="margin-bottom: 4rem;">
+        <div class="trivia-teaser">
+            <h3>Did you know?</h3>
+            <p>San Agustin is home to the <strong>only known Blue Hole in the Philippines</strong>! It's a massive
+                underwater sinkhole that draws adventurous scuba divers from all around the world.</p>
+            <a href="learn-more.html" class="btn btn-secondary"
+                style="background: transparent; color: var(--accent-color); border-color: var(--accent-color);">Discover
+                More Facts</a>
+        </div>
+    </section>
+
+    <!-- Map Widget Section -->
+    <section class="container fade-in">
+        <div class="section-heading">
+            <h2>Find Us Here</h2>
+            <p style="color: var(--text-secondary); margin-top: 1rem;">Navigate your way to San Agustin, Romblon.</p>
+        </div>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124505.47406232677!2d122.0465551390497!3d12.569502758117973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a4d46cf4ed93f3%3A0x6b447ddb732fbdd4!2sSan%20Agustin%2C%20Romblon%2C%20Philippines!5e0!3m2!1sen!2sus!4v1718000000000!5m2!1sen!2sus"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section class="container fade-in">
+        <div class="cta-banner">
+            <h2>Ready for an Adventure?</h2>
+            <p style="margin-bottom: 2rem; font-size: 1.1rem; max-width: 600px; margin-inline: auto;">Contact our
+                tourism office to book your tours, find accommodations, and plan the perfect itinerary for your stay.
+            </p>
+            <a href="tel:09624609673" class="btn btn-primary"
+                style="background: var(--white); color: var(--primary-dark);">Call Tourism Office</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo" style="margin-bottom: 1.5rem; display: inline-flex;">
+                        <img src="assets/logo San Agustin.png" alt="San Agustin Logo"
+                            style="filter: brightness(0) invert(1);">
+                        <span style="color: white;">San Agustin</span>
+                    </a>
+                    <p>Discover the untouched beauty of San Agustin, Romblon. Your ultimate island destination awaits.
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="contact-info" style="list-style: none; padding: 0;">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="locations.html">Locations</a></li>
+                        <li><a href="tours.html">Tours</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="learn-more.html">Learn More</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info" style="list-style: none; padding: 0;">
+                        <li>
+                            <span>📞</span>
+                            <a href="tel:09624609673">0962-460-9673</a>
+                        </li>
+                        <li>
+                            <span>🌐</span>
+                            <a href="https://sanagustinromblon.gov.ph/home" target="_blank"
+                                rel="noopener noreferrer">Official Website</a>
+                        </li>
+                        <li>
+                            <span>🔵</span>
+                            <a href="https://www.facebook.com/uswagsanagustin" target="_blank"
+                                rel="noopener noreferrer">Facebook Page</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 San Agustin Tourism Office. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
